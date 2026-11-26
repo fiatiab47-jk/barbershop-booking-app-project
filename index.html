@@ -12,7 +12,7 @@
     <!-- Social Media (Open Graph) Meta Tags -->
     <meta property="og:title" content="WDD330 | Cut &amp; Co | Home | Albert Fiati">
     <meta property="og:description" content="Book a haircut online with Cut &amp; Co. at your own comfort zone.">
-    <meta property="og:image" content="https://fiatiab47-jk.github.io/WDD330-projects/barbershop-booking-app-project/images/logos/scissors.svg">
+    <meta property="og:image" content="https://fiatiab47-jk.github.io/WDD330-projects/barbershop-booking-app-project/images/og-small.webp">
     <meta property="og:url" content="https://fiatiab47-jk.github.io/WDD330-projects/barbershop-booking-app-project/index.html">
     <meta property="og:type" content="website">
 
@@ -37,6 +37,17 @@
 <body>
     <!-- Share header for all pages -->
     <header id="site-header"></header>
+
+    <div class="og">
+        <!-- Responsive og image using <picture> -->
+        <picture class="og-image">
+            <source srcset="images/og-large.webp" media="(min-width: 1024px)">
+    
+            <source srcset="images/og-medium.webp" media="(min-width: 768px)">
+    
+            <img src="images/og-small.webp" alt="Professionals collaborating in a modern workshop" width="1400" height="933">
+        </picture>
+    </div>
 
     <!-- Main -->
     <main>

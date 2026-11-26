@@ -1,3 +1,4 @@
+// Import headerfooter
 import { loadHeaderfooter } from "./ui.mjs";
 
-loadHeaderfooter();
+loadHeaderfooter(); //Inserts shared header and footer
