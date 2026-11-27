@@ -8,8 +8,8 @@ async function loadPartial(url, selector) {
 
 // Load the shared header and footer into every page
 export async function loadHeaderfooter() {
-    await  loadPartial("/partials/header.html", "#site-header");
-    await  loadPartial("/partials/footer.html", "#site-footer");
+    await  loadPartial("partials/header.html", "#site-header");
+    await  loadPartial("partials/footer.html", "#site-footer");
 
     highlightCurrentPage();
     // The footer exist now, so we can now fill in the dates
