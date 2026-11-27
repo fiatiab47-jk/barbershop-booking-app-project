@@ -1,0 +1,90 @@
+[
+  {
+    "id": "svc-haircut",
+    "name": "Classic Haircut",
+    "category": "hair",
+    "description": "A clean cut with shaping and a neat finish.",
+    "price": 50,
+    "currency": "GHS",
+    "durationMinutes": 30,
+    "image": "images/services/haircut.webp",
+    "popular": true
+  },
+  {
+    "id": "svc-kids-cut",
+    "name": "Kids Haircut",
+    "category": "hair",
+    "description": "A gentle, quick haircut for children under 12.",
+    "price": 35,
+    "currency": "GHS",
+    "durationMinutes": 25,
+    "image": "images/services/kids-cut.webp",
+    "popular": false
+  },
+  {
+    "id": "svc-beard-trim",
+    "name": "Beard Trim",
+    "category": "beard",
+    "description": "Shape and tidy your beard with clean edges.",
+    "price": 30,
+    "currency": "GHS",
+    "durationMinutes": 20,
+    "image": "images/services/beard-trim.webp",
+    "popular": false
+  },
+  {
+    "id": "svc-hot-shave",
+    "name": "Hot Towel Shave",
+    "category": "beard",
+    "description": "A smooth razor shave with a warm towel treatment.",
+    "price": 45,
+    "currency": "GHS",
+    "durationMinutes": 30,
+    "image": "images/services/hot-shave.webp",
+    "popular": false
+  },
+  {
+    "id": "svc-line-up",
+    "name": "Line-Up",
+    "category": "hair",
+    "description": "Sharp hairline and edge detailing.",
+    "price": 30,
+    "currency": "GHS",
+    "durationMinutes": 20,
+    "image": "images/services/line-up.webp",
+    "popular": false
+  },
+  {
+    "id": "svc-cut-beard",
+    "name": "Haircut and Beard",
+    "category": "combo",
+    "description": "Our classic haircut plus a beard trim, at a saving.",
+    "price": 70,
+    "currency": "GHS",
+    "durationMinutes": 45,
+    "image": "images/services/cut-beard.webp",
+    "popular": true
+  },
+  {
+    "id": "svc-premium",
+    "name": "Premium Package",
+    "category": "combo",
+    "description": "Haircut, hot towel shave, and a relaxing scalp massage.",
+    "price": 110,
+    "currency": "GHS",
+    "durationMinutes": 60,
+    "image": "images/services/premium.webp",
+    "popular": true
+  },
+  {
+    "id": "svc-coloring",
+    "name": "Hair Coloring",
+    "category": "hair",
+    "description": "Professional coloring for a fresh new look.",
+    "price": 120,
+    "currency": "GHS",
+    "durationMinutes": 60,
+    "image": "images/services/coloring.webp",
+    "popular": false
+  }
+]

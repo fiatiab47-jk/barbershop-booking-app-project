@@ -1,0 +1,67 @@
+[
+    {
+        "id ": "brb-4k9x",
+        "name": "Kwame Mensah",
+        "title": "Master Barber",
+        "bio": "Specialist in fades and crispy line-ups with a calm, careful style.",
+        "specialities": ["fades", "line-ups"],
+        "experienceYears": 8,
+        "rating": "4.9",
+        "photo": "images/barbers/",
+        "workingDays": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+        "workingHours": {"start": "09:00", "end": "20:00"},
+        "services": ["svc-haircut", "svc-line-up", "svc-cut-beard"]
+    },
+    {
+        "id ": "brb-7m2q",
+        "name": "Kojo Boateng",
+        "title": "Senior Barber",
+        "bio": "Beard desingn and hot towel shave for a clean classic look.",
+        "specialities": ["beard design", "hot towel shave"],
+        "experienceYears": "6",
+        "rating": "4.8",
+        "photo": "images/barbers/",
+        "workingDays": ["Tue", "Wed", "Thu", "Fri", "Sat"],
+        "workingHours": {"start": "10:00", "end": "19:00"},
+        "services": ["svc-beard-trim", "svc-hot-shave", "svc-premium"]
+    },
+    {
+    "id": "brb-2p8d",
+    "name": "Yaw Owusu",
+    "title": "Barber",
+    "bio": "Classic cuts and kids haircuts, patient and friendly with young clients.",
+    "specialties": ["classic cuts", "kids cuts"],
+    "experienceYears": 4,
+    "rating": 4.7,
+    "photo": "images/barbers/barber-3.webp",
+    "workingDays": ["Mon", "Wed", "Fri", "Sat"],
+    "workingHours": { "start": "09:00", "end": "17:00" },
+    "services": ["svc-haircut", "svc-kids-cut"]
+    },
+    {
+        "id": "brb-9t5w",
+        "name": "Kojo Appiah",
+        "title": "Stylist",
+        "bio": "Creative cuts, designs, and hair coloring for bold styles.",
+        "specialties": ["hair designs", "coloring"],
+        "experienceYears": 5,
+        "rating": 4.6,
+        "photo": "images/barbers/barber-4.webp",
+        "workingDays": ["Mon", "Tue", "Thu", "Fri", "Sat"],
+        "workingHours": { "start": "11:00", "end": "19:00" },
+        "services": ["svc-haircut", "svc-ladies-cut", "svc-coloring"]
+    },
+    {
+        "id": "brb-6h3z",
+        "name": "Nana Frimpong",
+        "title": "Junior Barber",
+        "bio": "Fresh talent focused on tidy, affordable everyday cuts.",
+        "specialties": ["tapers", "fades", "everyday cuts"],
+        "experienceYears": 2,
+        "rating": 4.5,
+        "photo": "images/barbers/barber-5.webp",
+        "workingDays": ["Tue", "Wed", "Thu", "Sat"],
+        "workingHours": { "start": "09:00", "end": "16:00" },
+        "services": ["svc-haircut", "svc-kids-cut", "svc-line-up"]
+    }
+]
