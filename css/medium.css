@@ -1,0 +1,16 @@
+/* Tablet: hide the hamburger ansd show the links in a row */
+#site-header {
+
+    .hamburger {display: none;}
+    
+    .nav-links, .nav-links.open{
+        display: flex;
+        flex-direction: row;
+        width: auto; 
+        background-color: inherit;
+
+        a {
+            border-bottom: none;
+        }
+    } 
+}

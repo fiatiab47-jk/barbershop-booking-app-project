@@ -1,0 +1,31 @@
+#site-header {
+    .hamburger {display: block;}
+    
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: var(--gray);
+
+        a {
+            border-bottom: 1px solid rgba(225, 255, 255, 0.45);
+        }
+
+        a.active {
+            color: var(--gold);
+            font-size: larger;
+        }
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+    
+    .nav-links.open {
+      max-height: calc(100vh - 80px);   /* screen height minus the header row */
+      overflow-y: auto;                 /* scroll inside the menu if it's too tall */
+    } 
+}
+
+
+
