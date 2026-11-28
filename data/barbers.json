@@ -8,9 +8,10 @@
         "experienceYears": 8,
         "rating": "4.9",
         "photo": "images/barbers/",
-        "workingDays": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+        "workingDays": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
         "workingHours": {"start": "09:00", "end": "20:00"},
-        "services": ["svc-haircut", "svc-line-up", "svc-cut-beard"]
+        "services": ["svc-haircut", "svc-line-up", "svc-cut-beard"],
+        "hoursByDay": { "Sun": { "start": "13:00", "end": "18:00" } }
     },
     {
         "id ": "brb-7m2q",
@@ -21,9 +22,10 @@
         "experienceYears": "6",
         "rating": "4.8",
         "photo": "images/barbers/",
-        "workingDays": ["Tue", "Wed", "Thu", "Fri", "Sat"],
+        "workingDays": ["Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
         "workingHours": {"start": "10:00", "end": "19:00"},
-        "services": ["svc-beard-trim", "svc-hot-shave", "svc-premium"]
+        "services": ["svc-beard-trim", "svc-hot-shave", "svc-premium"],
+        "hoursByDay": { "Sun": { "start": "14:00", "end": "19:00" } }
     },
     {
     "id": "brb-2p8d",
@@ -60,8 +62,9 @@
         "experienceYears": 2,
         "rating": 4.5,
         "photo": "images/barbers/barber-5.webp",
-        "workingDays": ["Tue", "Wed", "Thu", "Sat"],
+        "workingDays": ["Tue", "Wed", "Thu", "Sat", "Sun"],
         "workingHours": { "start": "09:00", "end": "16:00" },
-        "services": ["svc-haircut", "svc-kids-cut", "svc-line-up"]
+        "services": ["svc-haircut", "svc-kids-cut", "svc-line-up"],
+        "hoursByDay": { "Sun": { "start": "13:00", "end": "18:00" } }
     }
 ]
